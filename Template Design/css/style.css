@@ -1,0 +1,136 @@
+*{
+padding: 0;
+}
+
+.hearder_back{
+    background: rgb(157,249,230);
+    background: linear-gradient(90deg, rgba(157,249,230,1) 0%, rgba(250,229,229,1) 72%);
+    height: 100vh;
+}
+
+.nav_bg{
+margin-top:00px;
+ padding-top:30px;   
+}
+.navbar .nav-link{
+    margin: 0px 4px 0px 4px;
+}
+.navbar-light .navbar-nav .nav-link {
+    font-weight: 600;
+    color: red;
+}
+.collapse{
+    display: flex;
+    flex-direction:column;
+    align-content: flex-end;
+    justify-content: space-around;
+
+}
+
+.navbar-nav .nav-item{
+    
+}
+
+.card{
+    margin: 15% auto 0 10%;
+}
+
+.card {
+    position: relative;
+    left:111px;
+    top:34px;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background: rgb(249,157,232);
+    background: -moz-linear-gradient(90deg, rgba(249,157,232,1) 0%, rgba(255,225,33,1) 72%);
+    background: -webkit-linear-gradient(90deg, rgba(249,157,232,1) 0%, rgba(255,225,33,1) 72%);
+    background: linear-gradient(90deg, rgba(249,157,232,1) 0%, rgba(255,225,33,1) 72%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f99de8",endColorstr="#ffe121",GradientType=1);
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+    /* transform: perspective(17px); */
+    transform: perspective(67px) rotate3d(1, -11, 1,-4deg);
+    /* transform: perspective(22px); */
+}
+
+
+.card1{
+    margin: 15% auto 0 10%;
+}
+
+.card1 {
+    position: relative;
+    left: 0px;
+    top: 34px;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fce3fc;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+    /* transform: perspective(17px); */
+    transform: perspective(67px) rotate3d(1, -11, 1,5deg);
+    /* transform: perspective(22px); */
+}
+
+
+
+.img_class img{
+    width: 636px;
+    height: 418px;
+    margin-top: 146px;
+
+}
+
+
+.card-body {
+    flex: 1 1 auto;
+    padding: 3rem 1rem;
+}
+
+@media screen and (min-width:320px) and (max-width:480px) {
+    .hearder_back{
+        background-color: pink;
+        height: 100vh;
+        }
+}
+
+
+@media screen and (min-width:481px) and (max-width:575px) {
+    .hearder_back{
+        background-color:green;
+        height: 100vh;
+        }
+}
+
+
+
+@media screen and (min-width:576px) and (max-width:768px) {
+    .hearder_back{
+        background-color:green;
+        height: 100vh;
+        }
+}
+
+
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+    .hearder_back{
+        background-color:green;
+        height: 100vh;
+        }
+}
+
+
+
+@media screen and (min-width:1025px) and (max-width:1200px) {
+    .hearder_back{
+        background-color:green;
+        height: 100vh;
+        }
+}
